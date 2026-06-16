@@ -6,6 +6,9 @@ body {
 
     padding: 20px;
 }
+body ol li a {
+    color: #E5D9FA; /* A vibrant red color */
+}
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -29,4 +32,22 @@ h1 {
     margin-bottom: 20px;
     max-width: 80%;
     text-align: center;
+}
+
+details {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+summary {
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  outline: none; 
+}
+summary::-webkit-details-marker {
+  display: none; /* Для старых версий Safari */
+}
+p {
+  padding: 10px;
+  margin: 0;
 }
