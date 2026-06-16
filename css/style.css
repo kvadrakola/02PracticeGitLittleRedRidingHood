@@ -1,8 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #b0a4a4;
+    color: #E5D9FA;
+
+    padding: 20px;
+}
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #120E25;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -12,4 +20,13 @@ img {
     height: auto;
     display: block;
     margin: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    background: linear-gradient(135deg, #FF1F55, #8a0a28); /* A vibrant red color */
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 80%;
+    text-align: center;
 }
