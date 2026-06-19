@@ -45,7 +45,7 @@ summary {
   outline: none; 
 }
 summary::-webkit-details-marker {
-  display: none; /* Для старых версий Safari */
+  display: none; 
 }
 p {
   padding: 10px;
